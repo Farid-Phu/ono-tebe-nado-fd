@@ -1,6 +1,27 @@
-.cover {
+.header{
 
 }
+.cover {
+    height: 757px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    color: white;
+}
+.button{
+    color: white;
+    text-transform: uppercase;
+     border: 1px solid white;
+    background-color: transparent;
+}
 .description {
-    
+
+}
+.lots{
+
+}
+.about{
+
+}
+.footer{
+
 }
