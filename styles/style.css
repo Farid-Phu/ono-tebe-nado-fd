@@ -1,5 +1,48 @@
 .header{
+    height: 293px;
 
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    align-items:center;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;  
+}
+.header__menu{
+
+}
+.header__links-list{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-left: 17px;
+}
+.header__links-list-item{
+    list-style: circle;
+    text-underline-offset: 4px;
+}
+.header__links-list-item_no-bullit{
+    list-style: none;
+    text-decoration: none;
+}
+
+.header__logo-image{
+    display: block;
+    width: 135px;
+    height: 104px;
+    margin-left: 13px;
+
+}
+.address{
+    font-style: normal; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 230px;
+    margin-left: 26px;
+    gap: 3px;
+}
+.header__link_decoration{
+    text-underline-offset: 4px;
 }
 .cover {
     height: 757px;
