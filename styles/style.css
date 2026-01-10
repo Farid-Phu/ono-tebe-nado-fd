@@ -44,11 +44,22 @@
 .header__link_decoration{
     text-underline-offset: 4px;
 }
+
+
 .cover {
-    height: 757px;
+    min-height: 757px;
+    position: relative;
     background-image: url("../images/cover.jpg");
     background-size: cover;
-    color: white;
+    background-position: center;
+}
+.cover {
+  display: flex;
+}
+.overlay{
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    inset: 0;
 }
 .button{
     color: white;
