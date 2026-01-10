@@ -49,26 +49,72 @@
 .cover {
     min-height: 757px;
     position: relative;
+    display: flex;
+    flex-direction: column; 
     background-image: url("../images/cover.jpg");
     background-size: cover;
     background-position: center;
+    padding-top: 165px; 
 }
-.cover {
-  display: flex;
-}
+
 .overlay{
     position: absolute;
     background: rgba(0,0,0,0.6);
-    inset: 0;
+    inset: 0; 
+    z-index: 1;
 }
-.button{
-    color: white;
+.aligned-text{
+    position: relative;
     text-transform: uppercase;
-     border: 1px solid white;
-    background-color: transparent;
+    color: white;
+    z-index: 2;
+    font-weight: 700;
+    font-size: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    letter-spacing: 0.3em;
+}
+.aligned-text_left {
+  align-self: flex-start;
+  margin-left: 50px;
+}
+.aligned-text_center {
+  align-self: center;
+  margin-top: 17px;
+  margin-left: 30px;
+}
+.aligned-text_right {
+  align-self: flex-end;
+  margin-top: 17px;
+  margin-right: 20px;
 }
 .description {
+    text-transform: uppercase;
+    font-size: 22px;
+    position: relative;
+    color: white;
+    margin-top: auto;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    word-spacing: 0.85em; 
 
+}
+.button{
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    border: 1px solid white;
+    background-color: transparent;
+    z-index: 2;
+    width: 256px;
+    height: 51px;
+    margin-right: 50px;
 }
 .lots{
 
