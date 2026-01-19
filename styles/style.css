@@ -37,7 +37,7 @@
     margin-left: 26px;
     gap: 4px;
 }
-.header__link_decoration {
+.address-block__link {
     text-underline-offset: 3px;
 }
 .cover {
